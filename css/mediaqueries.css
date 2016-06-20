@@ -1,0 +1,14 @@
+/*MEDIA QUERIES */
+
+@media screen and (max-width: 600px) {
+	main{width:auto;float: none;display:block;}
+	aside {width: 100%;float: none;}
+	.widget{margin-top:20px;}
+}
+
+@media screen and (max-width: 500px) {
+	#main-nav li:first-child{margin:0;}
+	#main-nav li{float:none; text-align: center;}
+	#logo{text-align: center;}
+	article header{text-align: center;}
+}

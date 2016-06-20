@@ -1,0 +1,240 @@
+
+/************************************************************************************
+GENERAL STYLING
+*************************************************************************************/
+body {
+	background: #0d1424 url(../images/bg.jpg) no-repeat center top;
+	font: 13px Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	color: #666;
+}
+a {
+	color: #026acb;
+	text-decoration: none;
+	outline: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	margin: 0 0 1.2em;
+	padding: 0;
+}
+
+/* list */
+ul, ol {
+	margin: 1em 0 1.4em 24px;
+	padding: 0;
+	line-height: 140%;
+}
+li {
+	margin: 0 0 .5em 0;
+	padding: 0;
+}
+
+/* headings */
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+}
+h1 {
+	font-size: 2.5em;
+}
+h2 {
+	font-size: 2em;
+}
+h3 {
+	font-size: 1.4em;
+}
+h4 {
+	font-size: 1.2em;
+}
+h5 {
+	font-size: 1.1em;
+}
+h6 {
+	font-size: 1em;
+}
+
+img{
+	max-width: 100%
+}
+
+/************************************************************************************
+WRAPPER
+*************************************************************************************/
+#wrapper {
+	/*width: 980px;*/
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+header[role="banner"]{
+	margin-bottom:30px;
+	padding-top:10px;
+}
+
+#logo {
+	margin-bottom:20px;
+}
+#logo h1 a, #logo p {
+	color:#fff;
+}
+#logo h1 a:hover{
+	text-decoration: none
+}
+#logo p{
+	font-style: italic;
+}
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+#main-nav {
+	width: 100%;
+	background: #ccc;
+	margin:20px 0 0 0 ;
+	padding: 0;
+	overflow: auto;
+	/* gradient */
+	background: #6a6a6a url(images/nav-bar-bg.png) repeat-x;
+	background: -webkit-gradient(linear, left top, left bottom, from(#b9b9b9), to(#6a6a6a));
+	background: -moz-linear-gradient(top,  #b9b9b9,  #6a6a6a);
+	background: linear-gradient(-90deg, #b9b9b9, #6a6a6a);
+	/* rounded corner */
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	/* box shadow */
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.3), 0 1px 1px rgba(0,0,0,.4);
+}
+#main-nav li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+}
+#main-nav li:first-child {
+	margin-left: 10px;
+}
+#main-nav a {
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	padding: 14px 15px;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+	font-size: 1.1em;
+}
+#main-nav a:hover {
+	color: #fff;
+	background: #474747;
+	/* gradient */
+	background: -webkit-gradient(linear, left top, left bottom, from(#282828), to(#4f4f4f));
+	background: -moz-linear-gradient(top,  #282828,  #4f4f4f);
+	background: linear-gradient(-90deg, #282828, #4f4f4f);
+}
+
+/************************************************************************************
+CONTENT
+*************************************************************************************/
+main {
+	background: #fff;
+	/*padding: 20px 35px;*/
+	padding: 20px 3.57%;
+	/*width: 600px;*/
+	width:61.22%;
+	float: left;
+	/* rounded corner */
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	/* box shadow */
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+
+/* post */
+.post {
+	margin-bottom: 40px;
+}
+.post-title {
+	margin: 0 0 5px;
+	padding: 0;
+	
+}
+.post-title a {
+	text-decoration: none;
+	color: #000;
+}
+.post-meta {
+	margin: 0 0 10px;
+}
+
+/* post image */
+.post-image {
+	margin-bottom:15px;
+}
+
+/************************************************************************************
+SIDEBAR
+*************************************************************************************/
+aside {
+	/*width: 280px;*/
+	width:28.57%;
+	float: right;
+	margin:0
+}
+.widget {
+	background: #fff;
+	margin: 0 0 20px 0;
+	/*padding: 10px 20px;*/
+	padding: 10px 7.14%;
+	/* rounded corner */
+	-webkit-border-radius:0;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	/* box shadow */
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,.4);
+	box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+.widgettitle {
+	margin: 0 0 5px;
+	padding: 0;	
+}
+.widget ul {
+	margin: 0;
+	padding: 0;
+}
+.widget li {
+	margin: 0;
+	padding: 6px 0;
+	list-style: none;
+	clear: both;
+	border-top: solid 1px #eee;
+}
+.widget.instagram {
+	padding-bottom:35px;
+}
+
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+footer {
+	clear: both;
+	color: #ccc;
+	text-align: center
+}
+footer a {
+	color: #fff;
+}
+
+
